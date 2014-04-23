@@ -11,21 +11,21 @@ Install the app and give it a try yourself!!!
 
 - Getting a Twilio account:
 
-	· Get an account: https://www.twilio.com
-	· Get a number (make sure it is green-marked for SMS texting): https://www.twilio.com/user/account/phone-numbers/incoming
-	· Take your credentials: ACCOUNT_SID and AUTH_TOKEN
-	· Configure them in the /assets/configuration.properties file in the Android project.
-	· Get the URL for the SMS REST API from the samples at bottom of the page (cURL for instance): https://www.twilio.com/user/account/developer-tools/api-explorer/message-create:
+	- Get an account: https://www.twilio.com
+	- Get a number (make sure it is green-marked for SMS texting): https://www.twilio.com/user/account/phone-numbers/incoming
+	- Take your credentials: ACCOUNT_SID and AUTH_TOKEN
+	- Configure them in the /assets/configuration.properties file in the Android project.
+	- Get the URL for the SMS REST API from the samples at bottom of the page (cURL for instance): https://www.twilio.com/user/account/developer-tools/api-explorer/message-create:
 		NOTE: As of 04/23/2014 your URL should be something like https://api.twilio.com/2010-04-01/Accounts/{ACCOUNT_SID}/Messages.json
-	· Configure the URL in the /assets/configuration.properties file in the Android project.
+	- Configure the URL in the /assets/configuration.properties file in the Android project.
 
 
 - Getting a Bing account:
 
-	· Reach the point where you get a "Client ID" and a "Client Secret": http://blogs.msdn.com/b/translation/p/gettingstarted1.aspx
-	· Set them in the /assets/configuration.properties file in the Android project.
+	- Reach the point where you get a "Client ID" and a "Client Secret": http://blogs.msdn.com/b/translation/p/gettingstarted1.aspx
+	- Set them in the /assets/configuration.properties file in the Android project.
 		NOTE: The library that issues the requests to the Bing API manages token expiration.
-	· Play around checking some translations if you want: https://datamarket.azure.com/dataset/explore/bing/microsofttranslator
+	- Play around checking some translations if you want: https://datamarket.azure.com/dataset/explore/bing/microsofttranslator
 
 - Profit!!!
 
