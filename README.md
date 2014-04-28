@@ -7,7 +7,7 @@ Simple Android client using Twilio SMS and Bing translation APIs to text people 
 Install the app and give it a try yourself!!!
 =============================================
 
-- Get the code at: 
+- Get the code.
 
 - Getting a Twilio account:
 
